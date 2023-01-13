@@ -37,7 +37,7 @@ const metadata = {
     <meta name="description" content={description} />
   ),
   tagline: (tagline: string | undefined) => (
-    <>{tagline || 'Test the LTL MVP on Goerli'}</>
+    <>{tagline || 'Test the MVP on Goerli'}</>
   ),
   image: (image?: string) => {
     if (image) {
